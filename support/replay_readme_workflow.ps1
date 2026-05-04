@@ -3,6 +3,7 @@ git add .
 git commit -m "V1 step1: initial workflow snapshot"
 git push
 
+Remove-Item -Recurse -Force .\main
 Copy-Item -Recurse -Force .\traditional\version1_step2\* .
 git add .
 git commit -m "V1 step2: additional workflow changes"
