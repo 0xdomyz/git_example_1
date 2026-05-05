@@ -18,3 +18,6 @@ git push
 
 Remove-Item -Recurse -Force .\main
 Remove-Item -Recurse -Force .\archive
+git add .
+git commit -m "end of example: tear down"
+git push
