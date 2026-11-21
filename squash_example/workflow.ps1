@@ -19,8 +19,13 @@ Copy-Item -Recurse -Force .\squash_example\script_3.sql .
 git add .
 git commit -m "Add script_3.sql"
 
+# other stuff
+git add .
+git commit -m "change 4"
 
-git pull
+
+# squash
+git checkout master
 
 git checkout -b feature-pr1
 git cherry-pick <commit1> <commit2>
