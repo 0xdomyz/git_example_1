@@ -7,6 +7,9 @@ Copy-Item -Recurse -Force .\squash_example\script_0.sql .
 git add .
 git commit -m "master commit"
 
+git branch feat
+git checkout feat
+
 Copy-Item -Recurse -Force .\squash_example\script_1.sql .
 git add .
 git commit -m "Add script_1.sql"
