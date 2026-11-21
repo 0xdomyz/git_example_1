@@ -1,2 +1,2 @@
 SELECT COUNT(*) AS row_count
-FROM demo_exposure2;
+FROM demo_exposure0;
